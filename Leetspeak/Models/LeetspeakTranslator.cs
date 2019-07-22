@@ -1,8 +1,8 @@
 using System;
 
-namespace ProjectName.Models
+namespace Leetspeak.Models
 {
-    public class ClassName
+    public class LeetspeakTranslator
     {
         
     }

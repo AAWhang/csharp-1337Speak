@@ -1,15 +1,15 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProjectName.Models;
+using Leetspeak.Models;
 
-namespace ProjectName.Tests
+namespace Leetspeak.Tests
 {
     [TestClass]
-    public class ClassNameTest
+    public class LeetspeakTranslatorTest
     {
         [TestMethod]
         public void MethodName_Spec_ExpectedOutput()
         {
-            ClassName instanceName = new ClassName();
+            LeetspeakTranslator instanceName = new LeetspeakTranslator();
             Assert.AreEqual(ExpectedOutput, instanceName.MethodName(inputHere));
         }
     }
