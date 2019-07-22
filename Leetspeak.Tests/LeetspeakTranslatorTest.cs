@@ -7,10 +7,16 @@ namespace Leetspeak.Tests
     public class LeetspeakTranslatorTest
     {
         [TestMethod]
-        public void MethodName_Spec_ExpectedOutput()
+        public void Translate_TurnLowercaseEInto3_3gg()
         {
-            LeetspeakTranslator instanceName = new LeetspeakTranslator();
-            Assert.AreEqual(ExpectedOutput, instanceName.MethodName(inputHere));
+            LeetspeakTranslator translator = new LeetspeakTranslator();
+            Assert.AreEqual("3gg", translator.Translate("egg"));
+        }
+        [TestMethod]
+        public void Translate_TurnUppercaseEInto3_3gg()
+        {
+            LeetspeakTranslator translator = new LeetspeakTranslator();
+            Assert.AreEqual("3gg", translator.Translate("Egg"));
         }
     }
 }
