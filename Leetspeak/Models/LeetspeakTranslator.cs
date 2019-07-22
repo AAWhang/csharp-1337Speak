@@ -27,7 +27,10 @@ namespace Leetspeak.Models
                 .Replace('o','0')
                 .Replace('T','t')
                 .Replace('t','7')
-                .Replace('L','1');
+                .Replace('L','1')
+                .Replace('A','a')
+                .Replace('a','4')
+                .Replace('c','(');                
         }
     }
 }
